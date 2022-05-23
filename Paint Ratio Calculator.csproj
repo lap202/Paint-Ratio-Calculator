@@ -23,6 +23,9 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>Paint Ratio Calculator</ProductName>
+    <PublisherName>Andrew Bach</PublisherName>
     <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
@@ -52,7 +55,8 @@
     <ManifestCertificateThumbprint>2BC3ECF86899015FB8778C95D1D1FE19301ED8C3</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Paint Ratio Calculator_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
