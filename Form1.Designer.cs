@@ -192,6 +192,8 @@
             this.Controls.Add(this.btn_ratio_flat);
             this.Controls.Add(this.btn_ratio_semigloss);
             this.Controls.Add(this.btn_ratio_gloss);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "frm_ratioCalculator";
             this.Text = "Paint Ratio Calculator";
             this.ResumeLayout(false);
