@@ -37,6 +37,8 @@ namespace Paint_Ratio_Calculator
                 if (double.TryParse(txt_paint.Text, out paintAmount))
                 {
                     lbl_error.Text = "";
+
+                    //Calculate hardener and total paint amounts.
                     txt_hardener.Text = Math.Round((paintAmount / ratio), 2).ToString();
                     txt_total.Text = Math.Round(((paintAmount / ratio) + paintAmount), 2).ToString();
                 }
@@ -47,31 +49,29 @@ namespace Paint_Ratio_Calculator
             }
         }
 
-        private void btn_ratio_gloss_Click(object sender, EventArgs e)
+        private void ratioBtnClicked(Button btnClicked, double setRatio)
         {
-            ratio = 3.6;
-            btn_ratio_gloss.BackColor = Color.LawnGreen;
+            ratio = setRatio;
+            btn_ratio_gloss.BackColor = SystemColors.Control;
             btn_ratio_flat.BackColor = SystemColors.Control;
             btn_ratio_semigloss.BackColor = SystemColors.Control;
+            btnClicked.BackColor = Color.LawnGreen;
             calculateRatio();
+        }
+
+        private void btn_ratio_gloss_Click(object sender, EventArgs e)
+        {
+            ratioBtnClicked(btn_ratio_gloss, 3.6);
         }
 
         private void btn_ratio_semigloss_Click(object sender, EventArgs e)
         {
-            ratio = 4.6;
-            btn_ratio_semigloss.BackColor = Color.LawnGreen;
-            btn_ratio_flat.BackColor = SystemColors.Control;
-            btn_ratio_gloss.BackColor = SystemColors.Control;
-            calculateRatio();
+            ratioBtnClicked(btn_ratio_semigloss, 4.6);
         }
 
         private void btn_ratio_flat_Click(object sender, EventArgs e)
         {
-            ratio = 5.6;
-            btn_ratio_flat.BackColor = Color.LawnGreen;
-            btn_ratio_semigloss.BackColor = SystemColors.Control;
-            btn_ratio_gloss.BackColor = SystemColors.Control;
-            calculateRatio();
+            ratioBtnClicked(btn_ratio_flat, 5.6);
         }
 
         private void txt_paint_TextChanged(object sender, EventArgs e)
