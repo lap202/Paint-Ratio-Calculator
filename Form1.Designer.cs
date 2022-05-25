@@ -46,7 +46,7 @@
             // 
             // btn_ratio_gloss
             // 
-            this.btn_ratio_gloss.Location = new System.Drawing.Point(98, 43);
+            this.btn_ratio_gloss.Location = new System.Drawing.Point(96, 30);
             this.btn_ratio_gloss.Name = "btn_ratio_gloss";
             this.btn_ratio_gloss.Size = new System.Drawing.Size(75, 23);
             this.btn_ratio_gloss.TabIndex = 0;
@@ -57,7 +57,7 @@
             // btn_ratio_semigloss
             // 
             this.btn_ratio_semigloss.BackColor = System.Drawing.Color.LawnGreen;
-            this.btn_ratio_semigloss.Location = new System.Drawing.Point(179, 43);
+            this.btn_ratio_semigloss.Location = new System.Drawing.Point(177, 30);
             this.btn_ratio_semigloss.Name = "btn_ratio_semigloss";
             this.btn_ratio_semigloss.Size = new System.Drawing.Size(75, 23);
             this.btn_ratio_semigloss.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             // btn_ratio_flat
             // 
-            this.btn_ratio_flat.Location = new System.Drawing.Point(259, 43);
+            this.btn_ratio_flat.Location = new System.Drawing.Point(257, 30);
             this.btn_ratio_flat.Name = "btn_ratio_flat";
             this.btn_ratio_flat.Size = new System.Drawing.Size(75, 23);
             this.btn_ratio_flat.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             // txt_paint
             // 
-            this.txt_paint.Location = new System.Drawing.Point(21, 107);
+            this.txt_paint.Location = new System.Drawing.Point(19, 94);
             this.txt_paint.MaxLength = 7;
             this.txt_paint.Name = "txt_paint";
             this.txt_paint.Size = new System.Drawing.Size(100, 20);
@@ -87,7 +87,7 @@
             // txt_hardener
             // 
             this.txt_hardener.Enabled = false;
-            this.txt_hardener.Location = new System.Drawing.Point(127, 107);
+            this.txt_hardener.Location = new System.Drawing.Point(125, 94);
             this.txt_hardener.Name = "txt_hardener";
             this.txt_hardener.Size = new System.Drawing.Size(100, 20);
             this.txt_hardener.TabIndex = 4;
@@ -95,7 +95,7 @@
             // txt_total
             // 
             this.txt_total.Enabled = false;
-            this.txt_total.Location = new System.Drawing.Point(233, 107);
+            this.txt_total.Location = new System.Drawing.Point(231, 94);
             this.txt_total.Name = "txt_total";
             this.txt_total.Size = new System.Drawing.Size(100, 20);
             this.txt_total.TabIndex = 5;
@@ -103,7 +103,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 91);
+            this.label1.Location = new System.Drawing.Point(16, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 6;
@@ -112,7 +112,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(124, 91);
+            this.label2.Location = new System.Drawing.Point(122, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 13);
             this.label2.TabIndex = 7;
@@ -121,7 +121,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(230, 91);
+            this.label3.Location = new System.Drawing.Point(228, 78);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 13);
             this.label3.TabIndex = 8;
@@ -130,7 +130,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(115, 27);
+            this.label4.Location = new System.Drawing.Point(113, 14);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(33, 13);
             this.label4.TabIndex = 9;
@@ -139,7 +139,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(183, 27);
+            this.label5.Location = new System.Drawing.Point(181, 14);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 13);
             this.label5.TabIndex = 10;
@@ -148,7 +148,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(282, 27);
+            this.label6.Location = new System.Drawing.Point(280, 14);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 13);
             this.label6.TabIndex = 11;
@@ -157,7 +157,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(23, 41);
+            this.label7.Location = new System.Drawing.Point(21, 28);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 25);
             this.label7.TabIndex = 12;
@@ -167,7 +167,7 @@
             // 
             this.lbl_error.AutoSize = true;
             this.lbl_error.ForeColor = System.Drawing.Color.Red;
-            this.lbl_error.Location = new System.Drawing.Point(20, 130);
+            this.lbl_error.Location = new System.Drawing.Point(18, 117);
             this.lbl_error.Name = "lbl_error";
             this.lbl_error.Size = new System.Drawing.Size(0, 13);
             this.lbl_error.TabIndex = 13;
@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 155);
+            this.ClientSize = new System.Drawing.Size(349, 123);
             this.Controls.Add(this.lbl_error);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
